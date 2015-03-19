@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200px"
+    android:layout_margin="10dp"
+    android:layout_height="350px">
+
+    <TextView
+        android:id="@+id/out_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="谢谢惠顾"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp" />
+
+    <com.oki.widget.EraseView
+        android:id="@+id/eraseView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#999999"
+         />
+</RelativeLayout>

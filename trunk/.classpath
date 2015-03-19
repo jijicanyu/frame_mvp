@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Android API 21 Platform"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/android-support-v7-appcompat"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/universal-image-loader-1.9.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/xUtils-2.6.11"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-lang-2.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/fastjson-1.1.34.android"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gson-2.2.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/httpmime-4.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/litecommon1.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/pushservice-4.2.0.63"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/locSDK_4.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/android-support-v13"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
