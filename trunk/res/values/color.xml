@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clear">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="bisque">#ffffe4c4</color>
+    <color name="gold">#ffffd700</color>
+    <color name="pink">#ffffc0cb</color>
+    <color name="orange">#ffcc9900</color>
+    <color name="orangered">#ffff4500</color>
+    <color name="deeppink">#FF6767</color>
+    <color name="fuchsia">#ffff00ff</color>
+    <color name="red">#ffff0000</color>
+    <color name="violet">#ffee82ee</color>
+    <color name="crimson">#ffdc143c</color>
+    <color name="goldenrod">#ffdaa520</color>
+    <color name="silver">#ffc0c0c0</color>
+    <color name="mediumorchid">#ffba55d3</color>
+    <color name="paleturquoise">#ffafeeee</color>
+    <color name="darkgrey">#ffa9a9a9</color>
+    <color name="brown">#ffa52a2a</color>
+    <color name="sienna">#ffa0522d</color>
+    <color name="darkorchid">#ff9932cc</color>
+    <color name="darkred">#ff8b0000</color>
+    <color name="blueviolet">#ff8a2be2</color>
+    <color name="skyblue">#ff87ceeb</color>
+    <color name="grey">#ff808080</color>
+    <color name="aquamarine">#ff7fffd4</color>
+    <color name="mediumseagreen">#ff3cb371</color>
+    <color name="forestgreen">#ff228b22</color>
+    <color name="royalblue">#ff4169e1</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="darkgreen">#ff006400</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="darkblue">#ff00008b</color>
+    <color name="black">#ff000000</color>
+    <color name="price">#ffef6f00</color>
+    <color name="main_cell_bg">#A6D5FA</color>
+    <color name="blue_new">#ff000000</color>
+    <color name="gray">#808080</color>
+
+    <color name="orangepress">#ED7A37</color>
+    <color name="orangebg_pres">#88ED7A37</color>
+
+    <color name="headColor">#1EA098</color>
+
+    <color name="linetwo_color">#AAAAAA</color>
+    <color name="line_color">#DEDFE0</color>
+
+
+    <!--IOS begin-->
+    <color name="ios_bg">#EEEEEE</color>
+    <color name="ios_titletxt">#000000</color>
+    <color name="ios_detailstxt">#8E8E93</color>
+    <color name="ios_line">#C8C7CC</color>
+    <!--IOS   end-->
+
+    <color name="like_white">#F9F9F9</color>
+    <color name="item_bg">#F3F4F9</color>
+    <color name="item_selbg">#F4F5F5</color>
+</resources>
