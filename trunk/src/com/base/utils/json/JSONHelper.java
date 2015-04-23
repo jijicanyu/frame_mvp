@@ -18,7 +18,7 @@ import java.util.*;
  * @author aa
  *
  */
-public class JsonHelper {
+public class JSONHelper {
     private static String TAG = "JSONHelper";
 
     /**

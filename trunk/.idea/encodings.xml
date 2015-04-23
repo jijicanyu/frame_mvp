@@ -132,7 +132,7 @@
     <file url="file://$PROJECT_DIR$/src/com/base/utils/imageshow/TouchImageView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/base/utils/imageshow/WrapMotionEvent.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/base/utils/json/FastJSONHelper.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/base/utils/json/JsonHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/base/utils/json/JSONHelper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/base/utils/json/ResouseJsonHelper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/base/utils/location/BaiduLocationer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/base/utils/memory/MemoryUtils.java" charset="UTF-8" />
