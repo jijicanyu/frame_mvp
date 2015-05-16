@@ -2,7 +2,8 @@
 MVTest.iml
 都是idea打开的配置文件
 
-MVPTest.eml
+项目使用eclipse打开过   自动添加了eclipse的项目文件
+MVPTest.eml  
 .class
 .project
 都是Eclipse的配置文件
