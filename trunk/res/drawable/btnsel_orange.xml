@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/orangepress"  ></item>
-    <item android:drawable="@color/line_color" android:state_enabled="false"></item>
-    <item android:drawable="@color/orangebg_pres" android:state_pressed="true"></item>
-
-</selector>
