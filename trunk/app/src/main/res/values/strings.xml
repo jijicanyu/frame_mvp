@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <string name="back">返回</string>
+
+    <!--拍照/选择图片相关-->
+    <string name="img_title">选择</string>
+    <string name="img_camera">拍照</string>
+    <string name="img_system">相册</string>
+    <string name="img_delete">删除图片</string>
+    <string name="img_change">更换图片</string>
+
+    <string name="app_name">创纪云宝宝店</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">存</string>
+    <string name="load">读</string>
+    <string name="id">ID:</string>
+    <string name="firstname">FirstName:</string>
+    <string name="lastname">LastName:</string>
+    <!--aeskey 经过混淆的包时,反编译解包的时候是解析不到这个文件的  所以写在这里非常安全  那个加密的的类里面的key是一个假的 -->
+    <string name="DES_Key">IzRxRlhFpVVzI8y4bR1Ggg==</string>
+
+    <string name="camera_error_no_sdcard">没有检测到SD卡，不能进行拍照</string>
+    <string name="no_camera_found">找不到可以拍照的设备</string>
+
+
+    <string name="exit_into">退出程序？</string>
+    <string name="exit_ok_btn">确定</string>
+    <string name="exit_cancel_btn">取消</string>
+    <string name="exit_hall">是否返回大厅？</string>
+    <string name="exit_person">是否退出当前用户？</string>
+    <string name="VideoView_error_text_unknown">未知错误</string>
+    <string name="VideoView_error_button">错误</string>
+
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <string name="imgurl1">http://crm345.com/img/home_ad1.png</string>
+    <string name="imgurl2">http://crm345.com/img/home_ad2.png</string>
+    <string name="imgurl3">http://crm345.com/img/home_ad3.png</string>
+
+</resources>
