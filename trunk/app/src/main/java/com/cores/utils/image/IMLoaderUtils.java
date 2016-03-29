@@ -27,8 +27,8 @@ public class IMLoaderUtils {
 
 
     public static DisplayImageOptions idimg_display_options = new DisplayImageOptions.Builder()
-            .showImageForEmptyUri(R.drawable.empty_photo)
-            .showImageOnFail(R.drawable.empty_photo)
+            .showImageForEmptyUri(R.mipmap.empty_photo)
+            .showImageOnFail(R.mipmap.empty_photo)
             .cacheInMemory(false)
             .cacheOnDisc(true)
             .imageScaleType(ImageScaleType.IN_SAMPLE_INT)
@@ -37,8 +37,8 @@ public class IMLoaderUtils {
 
 
     public static DisplayImageOptions fade_display_options = new DisplayImageOptions.Builder()
-            .showImageForEmptyUri(R.drawable.empty_photo)
-            .showImageOnFail(R.drawable.empty_photo)
+            .showImageForEmptyUri(R.mipmap.empty_photo)
+            .showImageOnFail(R.mipmap.empty_photo)
             .cacheInMemory(false)
             .cacheOnDisc(true)
             .imageScaleType(ImageScaleType.IN_SAMPLE_INT)
@@ -46,8 +46,8 @@ public class IMLoaderUtils {
             .build();
 
     public static DisplayImageOptions avaimg_rounddisplay_options = new DisplayImageOptions.Builder()
-            .showImageForEmptyUri(R.drawable.round_empty_avatar)
-            .showImageOnFail(R.drawable.round_empty_avatar)
+            .showImageForEmptyUri(R.mipmap.round_empty_avatar)
+            .showImageOnFail(R.mipmap.round_empty_avatar)
             .cacheInMemory(true)
             .cacheOnDisc(true)
             .imageScaleType(ImageScaleType.IN_SAMPLE_INT)
@@ -55,8 +55,8 @@ public class IMLoaderUtils {
             .build();
 
     public static DisplayImageOptions avaimg_display_options = new DisplayImageOptions.Builder()
-            .showImageForEmptyUri(R.drawable.empty_avatar)
-            .showImageOnFail(R.drawable.empty_avatar)
+            .showImageForEmptyUri(R.mipmap.empty_avatar)
+            .showImageOnFail(R.mipmap.empty_avatar)
             .cacheInMemory(true)
             .cacheOnDisc(true)
             .imageScaleType(ImageScaleType.IN_SAMPLE_INT)
@@ -136,7 +136,7 @@ public class IMLoaderUtils {
 
             @Override
             public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
-                img.setImageBitmap(DrawableUtil.readBitMap(con, R.drawable.round_empty_avatar));
+                img.setImageBitmap(DrawableUtil.readBitMap(con, R.mipmap.round_empty_avatar));
             }
 
             @Override

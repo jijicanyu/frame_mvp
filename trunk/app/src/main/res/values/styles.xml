@@ -87,7 +87,7 @@
     </style>
 
     <style name="frag_item" parent="font16">
-        <item name="android:drawableRight">@drawable/arrow_right</item>
+        <item name="android:drawableRight">@mipmap/arrow_right</item>
 
         <item name="android:clickable">true</item>
         <item name="android:textColor">@color/black_txt</item>

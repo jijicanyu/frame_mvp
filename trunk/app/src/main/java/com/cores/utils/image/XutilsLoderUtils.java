@@ -49,7 +49,7 @@ public class XutilsLoderUtils {
     public static void init(Context context)
     {
         //只是修改了faild  图片  其他不修改 理论上来说 其他配置应该是使用全局的配置
-        roundConfig.setLoadFailedDrawable(context.getResources().getDrawable(R.drawable.empty_avatar));
+        roundConfig.setLoadFailedDrawable(context.getResources().getDrawable(R.mipmap.empty_avatar));
         cornerConfig.setLoadFailedDrawable(context.getResources().getDrawable(R.mipmap.empty_logo));
         newconfig.setLoadFailedDrawable(context.getResources().getDrawable(R.mipmap.empty_logo));
         newconfig.setLoadingDrawable(context.getResources().getDrawable(R.mipmap.empty_logo));

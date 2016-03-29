@@ -16,19 +16,19 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Non focused states -->
-    <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/marknormal" />
-    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="false" android:drawable="@drawable/markcurrent" />
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:drawable="@mipmap/marknormal" />
+    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="false" android:drawable="@mipmap/markcurrent" />
 
     <!-- Focused states -->
-    <item android:state_focused="true" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/marknormal" />
-    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="false" android:drawable="@drawable/markcurrent" />
+    <item android:state_focused="true" android:state_selected="false" android:state_pressed="false" android:drawable="@mipmap/marknormal" />
+    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="false" android:drawable="@mipmap/markcurrent" />
 
     <!-- Pressed -->
     <!--    Non focused states -->
-    <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/markcurrent" />
-    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/markcurrent" />
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:drawable="@mipmap/markcurrent" />
+    <item android:state_focused="false" android:state_selected="true"  android:state_pressed="true" android:drawable="@mipmap/markcurrent" />
 
     <!--    Focused states -->
-    <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/markcurrent" />
-    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/markcurrent" />
+    <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@mipmap/markcurrent" />
+    <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@mipmap/markcurrent" />
 </selector>

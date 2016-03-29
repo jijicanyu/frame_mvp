@@ -108,8 +108,8 @@ public class FrameApplication extends Application {
     public static void initImageLoader() {
 
         DisplayImageOptions image_display_options = new DisplayImageOptions.Builder()
-                .showImageForEmptyUri(R.drawable.empty_photo)
-                .showImageOnFail(R.drawable.empty_photo)
+                .showImageForEmptyUri(R.mipmap.empty_photo)
+                .showImageOnFail(R.mipmap.empty_photo)
                 .cacheInMemory(false)
                 .cacheOnDisc(true)
                 .imageScaleType(ImageScaleType.IN_SAMPLE_INT)

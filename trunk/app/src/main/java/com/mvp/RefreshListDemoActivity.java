@@ -74,7 +74,7 @@ public class RefreshListDemoActivity extends Activity implements SwipeRefreshLay
         // 2.3 enable and show "up" arrow
         getActionBar().setDisplayHomeAsUpEnabled(true);
         // just styling option
-        drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+        drawerLayout.setDrawerShadow(R.mipmap.drawer_shadow, GravityCompat.START);
         drawerListView.setOnItemClickListener(new DrawerItemClickListener());
     }
 
