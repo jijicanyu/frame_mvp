@@ -1,6 +1,7 @@
 package com.cores;
 
 import android.app.Application;
+import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
@@ -55,9 +56,20 @@ public class FrameApplication extends Application {
 
         if(isDebug)
         {
-            LeakCanary.install(this);
+            //LeakCanary.install(this);
+            // BlockCanary.install(this, new AppBlockCanaryContext()).start();
         }
     }
+
+
+//需要使用multidex的时候请使用如下代码
+//    @Override
+//    protected void attachBaseContext(Context base) {
+//        TurboDex.enableTurboDex();
+//        super.attachBaseContext(base);
+//        MultiDex.install(this);
+//    }
+
 
 
 
