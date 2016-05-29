@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  SwipeRefreshLayout 这个控件太傻逼了 如果用自定义控件外部不套一个layout 就会发生滑动事件重复的bug  自己把自己的事件网上传递结果传递给自己了 -->
+<!-- 这个外层的FrameLayout必须添加 不添加事件出现问题 连setColor都会出现问题-->
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_widget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>
