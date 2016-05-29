@@ -18,6 +18,10 @@ import com.cores.adapter.ItemAdapter;
 import com.cores.mode.ItemInfo;
 import java.util.ArrayList;
 
+/**
+ * 基于Listview和
+ */
+
 public class RefreshListDemoActivity extends Activity implements SwipeRefreshLayout.OnRefreshListener{
 
     private String[] drawerListViewItems={"1","2","3","4","5","6"};

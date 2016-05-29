@@ -1,44 +1,41 @@
-package com.widgets;
+package com.cores.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.widget.ImageView;
-
+import android.widget.FrameLayout;
 import com.mvp.R;
 
-
-public class FixHeiImageView extends ImageView
+public class FixHeiFrameLayout extends FrameLayout
 {
-	private double wh_ratio=0.0;
 
-	public FixHeiImageView(Context context)
+	double wh_ratio=2.0;
+
+	public FixHeiFrameLayout(Context context)
 	{
 		super(context);
-		wh_ratio = 2.0;
 	}
-	
-	public FixHeiImageView(Context context, double mWh_ratio)
+
+	public FixHeiFrameLayout(Context context, double mWh_ratio)
 	{
 		super(context);
-
 		this.wh_ratio = mWh_ratio;
 	}
 
-	public FixHeiImageView(Context context, AttributeSet attrs)
+	public FixHeiFrameLayout(Context context, AttributeSet attrs)
 	{
 		super(context, attrs);
 
-		TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.FixHeiImageView);
-		wh_ratio = typedArray.getFloat(R.styleable.FixHeiImageView_whratio, (float) 1.0);
+		TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.FixHeiFrameLayout);
+		wh_ratio = typedArray.getFloat(R.styleable.FixHeiFrameLayout_framewhratio, (float) wh_ratio);
 		typedArray.recycle();
 	}
-	
-	public FixHeiImageView(Context context, AttributeSet attrs, int defStyle) {
+
+	public FixHeiFrameLayout(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 
 		TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.FixHeiImageView);
-		wh_ratio = typedArray.getFloat(R.styleable.FixHeiImageView_whratio, (float) 1.0);
+		wh_ratio = typedArray.getFloat(R.styleable.FixHeiFrameLayout_framewhratio, (float) wh_ratio);
 		typedArray.recycle();
 	}
 	

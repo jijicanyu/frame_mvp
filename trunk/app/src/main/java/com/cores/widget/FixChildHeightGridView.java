@@ -1,4 +1,4 @@
-package com.widgets;
+package com.cores.widget;
 /**
  * Created by aa on 2013/9/12.
  */

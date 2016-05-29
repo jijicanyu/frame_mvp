@@ -1,4 +1,4 @@
-package com.widgets;
+package com.cores.widget;
 /*
 bugfixview 这个包里面的View专门用来修复android自身带的bug
 */
